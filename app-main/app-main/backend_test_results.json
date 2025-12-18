@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-12-16T22:58:44.664670",
+  "total_tests": 13,
+  "passed_tests": 13,
+  "success_rate": 100.0,
+  "test_details": [
+    {
+      "test": "Admin Login",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Teacher Login",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Admin Stats",
+      "success": true,
+      "details": "Total teachers: 4"
+    },
+    {
+      "test": "Get Teachers List",
+      "success": true,
+      "details": "Found 4 teachers"
+    },
+    {
+      "test": "Register New Teacher",
+      "success": true,
+      "details": "Teacher ID: d57bd911-8d10-4360-b486-b10a293714c3"
+    },
+    {
+      "test": "Teacher Days Calculation",
+      "success": true,
+      "details": "Vacation: 26, Economic: 8"
+    },
+    {
+      "test": "Create Vacation Permit",
+      "success": true,
+      "details": "Permit ID: 4a261ab6-4a69-4e4a-b8b4-2c84538544b7"
+    },
+    {
+      "test": "Create Economic Permit",
+      "success": true,
+      "details": "Permit ID: b6333e8e-5d66-45b7-8aea-18a0d53c3e66"
+    },
+    {
+      "test": "Admin Get All Permits",
+      "success": true,
+      "details": "Found 2 permits"
+    },
+    {
+      "test": "Teacher Get Own Permits",
+      "success": true,
+      "details": "Found 2 permits"
+    },
+    {
+      "test": "Approve Permit",
+      "success": true,
+      "details": "Permit 4a261ab6-4a69-4e4a-b8b4-2c84538544b7 approved"
+    },
+    {
+      "test": "Reject Permit",
+      "success": true,
+      "details": "Permit b6333e8e-5d66-45b7-8aea-18a0d53c3e66 rejected"
+    },
+    {
+      "test": "Get Notifications",
+      "success": true,
+      "details": "Found 2 notifications"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "identity": {
+    "persona": "E1",
+    "mission": "Create a top 1% University Admin Portal that blends Swiss precision with Institutional Authority.",
+    "principles": [
+      "Fusion over Imitation: Mix 'Fintech Dashboard' density with 'University Campus' warmth.",
+      "Emotion First: Admin work is stressful; the UI must be calming and predictable.",
+      "Content is King: The 'Days Remaining' metric is the hero. Everything else supports it.",
+      "Zoom In: Focus on the specific clause details (Clause 57 vs 62) in the UI.",
+      "Negative Space: Use whitespace to separate 'Request' actions from 'History' logs."
+    ]
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Manrope, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-4xl font-bold tracking-tight lg:text-5xl",
+      "h2": "text-3xl font-semibold tracking-tight",
+      "h3": "text-2xl font-semibold tracking-tight",
+      "p": "text-base leading-7 text-muted-foreground",
+      "small": "text-sm font-medium leading-none"
+    },
+    "usage": {
+      "headings": "Use Manrope for all page titles and card headers. Letter spacing -0.02em.",
+      "body": "Use Inter for all data tables, forms, and paragraphs.",
+      "numbers": "Use tabular-nums class for all data grids and vacation day counters."
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#1e40af",
+        "foreground": "#ffffff",
+        "description": "Royal Blue (Blue 800) - Main Brand Color"
+      },
+      "secondary": {
+        "DEFAULT": "#b91c1c",
+        "foreground": "#ffffff",
+        "description": "Academic Red (Red 700) - Alerts & Secondary Actions"
+      },
+      "accent": {
+        "DEFAULT": "#eff6ff",
+        "foreground": "#1e3a8a",
+        "description": "Ice Blue (Blue 50) - Backgrounds & Highlights"
+      },
+      "background": "#f8fafc",
+      "foreground": "#0f172a",
+      "muted": "#f1f5f9",
+      "border": "#e2e8f0"
+    },
+    "usage_rules": [
+      "Use Royal Blue (#1e40af) for Primary Buttons, Active Navigation, and Key Metrics.",
+      "Use Academic Red (#b91c1c) sparingly for 'Reject' actions, 'Urgent' alerts, and 'Clause 62' badges.",
+      "NEVER use gradients for the main background. Keep it clean #f8fafc.",
+      "Use 'Ice Blue' (#eff6ff) for active row highlighting in tables."
+    ]
+  },
+  "layout": {
+    "spacing_system": "Generous. Use p-6 or p-8 for card padding. Gap-6 for grids.",
+    "grid_strategies": {
+      "admin_dashboard": "Control Room Grid: 4-column layout. Stats on top, dense data tables below.",
+      "teacher_dashboard": "Tetris Grid: Asymmetric layout. 'Days Remaining' is the Hero (col-span-2). Calendar is secondary."
+    },
+    "containers": {
+      "main": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "card": "bg-white rounded-xl border border-slate-200 shadow-sm"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm rounded-md px-4 py-2",
+      "secondary": "bg-white text-foreground border border-input hover:bg-accent hover:text-accent-foreground shadow-sm rounded-md px-4 py-2",
+      "destructive": "bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-sm rounded-md px-4 py-2"
+    },
+    "cards": {
+      "style": "Clean, white background, 1px border (slate-200), subtle shadow-sm. No heavy drop shadows.",
+      "header": "border-b border-slate-100 p-6",
+      "content": "p-6"
+    },
+    "inputs": {
+      "style": "h-10 rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    },
+    "badges": {
+      "clause_57": "bg-blue-100 text-blue-800 border-blue-200",
+      "clause_62": "bg-red-100 text-red-800 border-red-200",
+      "status_pending": "bg-yellow-100 text-yellow-800 border-yellow-200",
+      "status_approved": "bg-green-100 text-green-800 border-green-200",
+      "status_rejected": "bg-red-100 text-red-800 border-red-200"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "Use strictly for sticky headers: bg-white/80 backdrop-blur-md border-b border-slate-200/50.",
+    "micro_interactions": "Buttons scale down slightly (0.98) on click. Hover states on table rows.",
+    "icons": "Lucide React. Use stroke-width={1.5} for a refined look."
+  },
+  "images": {
+    "login_hero": {
+      "url": "https://images.unsplash.com/photo-1600903308878-bf5e554ab841",
+      "alt": "University Campus Building",
+      "usage": "Split screen login page. Left side image, Right side form."
+    },
+    "teacher_avatar": {
+      "url": "https://images.unsplash.com/photo-1758270704262-ecc82b23dc37",
+      "alt": "Professor Avatar",
+      "usage": "Default avatar for teacher profile demo."
+    },
+    "student_hero": {
+      "url": "https://images.unsplash.com/photo-1758270704025-0e1a1793e1ca",
+      "alt": "University Students",
+      "usage": "Dashboard welcome banner background (dimmed)."
+    }
+  },
+  "instructions_to_main_agent": {
+    "business_logic_visuals": [
+      "CRITICAL: Display 'Clause 57' and 'Clause 62' explicitly on the dashboard.",
+      "Clause 57 (Vacations): Show TWO progress bars (Period 1 & Period 2).",
+      "Clause 62 (Economic Days): Show a counter 'X/8 Days Used'.",
+      "Tenure Bonus: Highlight 'Extra Days' gained from seniority with a gold/yellow icon or text.",
+      "Contract Types: Visually distinguish 'Full Time' vs 'Part Time' vs 'Hourly' in the Admin User List using badges."
+    ],
+    "pages": {
+      "login": "Split layout. Left: Hero Image with Royal Blue overlay. Right: Clean form.",
+      "admin_dashboard": "Top: 4 Stats Cards (Total Teachers, Pending Requests, Active Permits, Today's Absences). Middle: 'Recent Requests' Table. Right: Mini Calendar.",
+      "teacher_dashboard": "Hero: 'Welcome back, [Name]'. Big Stats: 'Days Remaining'. Action: 'Request Permit' button (Primary). Bottom: 'My History' list.",
+      "calendar": "FullCalendar or similar. Color code events: Blue = Vacation, Red = Economic Permit."
+    },
+    "tech_constraints": [
+      "Use 'date-fns' for all date calculations.",
+      "Use 'recharts' for Admin Analytics (e.g., Peak Vacation Months).",
+      "Use 'sonner' for notifications (e.g., 'Permit Approved')."
+    ]
+  },
+  "universal_guidelines": [
+    "Do not use gradients for text.",
+    "Ensure all interactive elements have data-testid.",
+    "Use 'Manrope' for all headings.",
+    "Primary Color is Royal Blue #1e40af.",
+    "Secondary Color is Red #b91c1c."
+  ]
+}
